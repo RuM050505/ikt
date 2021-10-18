@@ -1,0 +1,84 @@
+#fejlec{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #5B544A;
+}
+#fejlec h1{
+    font-size: 36px;
+    color: white;
+}
+#fejlec h2{
+    font-size: 28px;
+    color: white;
+}
+
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: white;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+body{
+    background-color: #DCC3A3;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+ul :hover{
+    color: black;
+}
+li{
+    display: inline;
+    float: left;
+}
+#me a{
+    padding: 10px;
+    display: block;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+}
+#me a:hover{
+    background-color: #404040;
+    color: white;
+}
+#negyzet{
+    background-color: white;
+    border: black;
+    border-width: 2px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:link{
+    color: black;
+    text-decoration: black;
+}
+a:active{
+    color: black;
+    text-decoration: black;
+}
+a:hover{
+    color: black;
+    text-decoration: black;
+}
+iframe{
+    position: absolute;
+    height: 120%;
+    border: none;
+    width: 100%;
+}
